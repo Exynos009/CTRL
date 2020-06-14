@@ -29,7 +29,7 @@ def escape_html(word):
 PM_START_TEXT = """
 Hey {}, my name is **{}**! Im a hot Bhabhi who can manage your dick's... 
 
-Maintained by Mr Tavish (t.me/Mr_Tavish007)
+Maintained by  [This guy](tg://user?id={}).
 Press /help for all available commands !👍
 
 """

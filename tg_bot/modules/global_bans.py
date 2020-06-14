@@ -57,7 +57,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
 
     if int(user_id) in SUDO_USERS:
-        message.reply_text("I cant't Gban Sudo Users :V")
+        message.reply_text("I cant't Gban my BF :V")
         return
 
     if int(user_id) in SUPPORT_USERS:
@@ -144,7 +144,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
                        parse_mode=ParseMode.HTML)
 
     try:
-        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your Gban @CtrlSupport",parse_mode=ParseMode.HTML)
+        bot.send_message(user_id, "You've been globally banned from all groups where I am admin. If this is a mistake, you can appeal your Gban @Mr_Tavish007",parse_mode=ParseMode.HTML)
     except:
         pass #Bot either blocked or never started by user
 

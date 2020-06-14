@@ -27,10 +27,9 @@ def escape_html(word):
     return escape(word)
 
 PM_START_TEXT = """
-Hey {}, my name is **{}**! Im a group management Bot... 
+Hey {}, my name is **{}**! Im a hot Bhabhi who can manage your dick's... 
 
-Maintained by  [This guy](tg://user?id={}).
-
+Maintained by Mr Tavish (t.me/Mr_Tavish007)
 Press /help for all available commands !👍
 
 """
@@ -54,7 +53,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey  you can Donate  to Marie Creator [Paul](t.me/sonoflars), as well as [AVATAR](t.me/Refundisillegal) for better server #ktnxbye."""
+DONATE_STRING = """Hey  you can Donate  to Marie Creator [Paul](t.me/sonoflars), as well as [AVATAR](t.me/Refundisillegal) from whom I forked this repo for better server #ktnxbye."""
 
 
 IMPORTED = {}
@@ -167,8 +166,8 @@ def send_start(bot, update):
 
 
     keyboard = [[
-        InlineKeyboardButton(text=tld(chat.id, 'Support Group'),
-                             url="https://t.me/ctrlsupport")
+        InlineKeyboardButton(text=tld(chat.id, 'Support'),
+                             url="https://t.me/Mr_Tavish007")
         ]]
                            
     keyboard += [[
